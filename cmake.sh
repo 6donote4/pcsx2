@@ -2,6 +2,7 @@
  #cmake CMakeLists.txt -DCMAKE_BUILD_TYPE=Release
  #git checkout 56b76b1 --pcsx2 ver 1.6
  #git switch 56b76b1 --pcsx2 ver 1.6
+ #copy master_repo/cmake/* 56b76b1/cmake
  cmake CMakeLists.txt -DCMAKE_TOOLCHAIN_FILE=cmake/linux-compiler-i386-multilib.cmake
  make -j4
  make install
